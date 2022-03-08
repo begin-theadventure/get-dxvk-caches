@@ -1,1 +1,1 @@
-# -get-dxvk-caches
+# get-dxvk-caches
