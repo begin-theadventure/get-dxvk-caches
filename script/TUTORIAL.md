@@ -12,7 +12,9 @@ _(no need for downloading)_
 
 `mkdir dxvk`
 
-`find ["directoryhere"](https://github.com/begin-theadventure/dxvk-caches#directories) -iname "*dxvk-cache" -exec cp "{}" dxvk \;`
+`find "directoryhere" -iname "*dxvk-cache" -exec cp "{}" dxvk \;`
+
+["directories"](https://github.com/begin-theadventure/dxvk-caches#directories)
 
 **Your caches will be copied to dxvk folder, that's all!**
 
