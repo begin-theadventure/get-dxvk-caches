@@ -10,9 +10,9 @@ Download script->edit it->["directoryhere"](https://github.com/begin-theadventur
 
 _(no need for downloading)_
 
-mkdir dxvk
+`mkdir dxvk`
 
-find ["directoryhere"](https://github.com/begin-theadventure/dxvk-caches#directories) -iname "*dxvk-cache" -exec cp "{}" dxvk \;
+`find ["directoryhere"](https://github.com/begin-theadventure/dxvk-caches#directories) -iname "*dxvk-cache" -exec cp "{}" dxvk \;`
 
 **Your caches will be copied to dxvk folder, that's all!**
 
