@@ -4,7 +4,7 @@ Easy way to get all .dxvk-cache.
 
 ### GUI:
 
-Download script->move to x [directory](https://github.com/begin-theadventure/dxvk-caches#directories)->make it executable->use it.
+Download script->create move to x [directory](https://github.com/begin-theadventure/dxvk-caches#directories)->make it executable->use it.
 
 ### Terminal:
 
@@ -19,4 +19,4 @@ _(no need for downloading)_
 
 **Your caches will be copied to `~/dxvk-caches`, that's all!**
 
-Credit: blade
+Credit: blade (third command).
