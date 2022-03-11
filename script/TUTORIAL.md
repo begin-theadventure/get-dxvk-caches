@@ -12,9 +12,9 @@ _(no need for downloading)_
 
 `mkdir ~/dxvk-caches`
 
-cd [directory](https://github.com/begin-theadventure/dxvk-caches#directories)
+`cd` [`directory`](https://github.com/begin-theadventure/dxvk-caches#directories)
 
-find . -name '*.dxvk-cache' -type f -print0 | xargs -0 -I{} cp {} ~/dxvk-caches/
+`find . -name '*.dxvk-cache' -type f -print0 | xargs -0 -I{} cp {} ~/dxvk-caches/`
 
 
 **Your caches will be copied to `~/dxvk-caches`, that's all!**
