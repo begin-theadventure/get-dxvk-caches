@@ -4,18 +4,19 @@ Easy way to get all .dxvk-cache.
 
 ### GUI:
 
-Download script->edit it->["directoryhere"](https://github.com/begin-theadventure/dxvk-caches#directories)->make it executable->use it.
+Download script->move to x [directory](https://github.com/begin-theadventure/dxvk-caches#directories)->make it executable->use it.
 
 ### Terminal:
 
 _(no need for downloading)_
 
-`mkdir dxvk`
+`mkdir ~/dxvk-caches`
 
-`find "directoryhere" -iname "*dxvk-cache" -exec cp "{}" dxvk \;`
+cd [directory](https://github.com/begin-theadventure/dxvk-caches#directories)
 
-["directories"](https://github.com/begin-theadventure/dxvk-caches#directories)
+find . -name '*.dxvk-cache' -type f -print0 | xargs -0 -I{} cp {} ~/dxvk-caches/
 
-**Your caches will be copied to dxvk folder, that's all!**
 
-Credit: TAKYON (commands), [xVanjaZ](https://github.com/xVanjaZ) ([spaces](https://github.com/begin-theadventure/dxvk-caches/commit/38b1e941d7705a4577d39274bb4072e1e39b34e0) fix).
+**Your caches will be copied to `~/dxvk-caches`, that's all!**
+
+Credit: blade
