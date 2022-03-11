@@ -10,7 +10,7 @@ Download script->create move to x [directory](https://github.com/begin-theadvent
 
 _(no need for downloading)_
 
-`mkdir ~/dxvk-caches`
+`mkdir -p ~/dxvk-caches`
 
 `cd` [`directory`](https://github.com/begin-theadventure/dxvk-caches#directories)
 
