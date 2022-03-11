@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir dxvk
+mkdir ~/dxvk-caches
 
-find "directoryhere" -iname "*dxvk-cache" -exec cp "{}" dxvk \;
+find . -name '*.dxvk-cache' -type f -print0 | xargs -0 -I{} cp {} ~/caches/
