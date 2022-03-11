@@ -8,14 +8,13 @@ Download script->move to [directory](https://github.com/begin-theadventure/dxvk-
 
 ### Terminal:
 
-_(no need for downloading)_
+_without script:_
 
-`mkdir -p ~/dxvk-caches`
+`mkdir -p ~/dxvk-caches`; `cd` [`directory`](https://github.com/begin-theadventure/dxvk-caches#directories); `find . -name '*.dxvk-cache' -type f -print0 | xargs -0 -I{} cp {} ~/dxvk-caches/`
 
-`cd` [`directory`](https://github.com/begin-theadventure/dxvk-caches#directories)
+_with script_:
 
-`find . -name '*.dxvk-cache' -type f -print0 | xargs -0 -I{} cp {} ~/dxvk-caches/`
-
+`chmod +x get-dxvk-caches.sh`; `mv get-dxvk-caches.sh` [`directory`](https://github.com/begin-theadventure/dxvk-caches#directories); `cd` [`directory`](https://github.com/begin-theadventure/dxvk-caches#directories); `./get-dxvk-caches.sh`
 
 **Your caches will be copied to `~/dxvk-caches`, that's all!**
 
