@@ -18,4 +18,4 @@ _with script_:
 
 **Your caches will be copied to `~/dxvk-caches`, that's all!**
 
-Credit: blade (third command).
+Credit: blade (find.. command).
